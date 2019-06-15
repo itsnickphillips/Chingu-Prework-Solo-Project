@@ -1,0 +1,71 @@
+body{
+    font-family:'Playfair Display' , serif;
+}
+
+.mainheader{
+    background-color: #f2f2f2;
+    
+}
+
+h1{
+    color: #1a1a1a;
+    font-size: 48px;
+    margin-left: 175px;    
+}
+
+.headerdescription{
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+.sharebutton{
+    margin-left: 175px;
+
+}
+
+.introtext{
+    margin-left: 175px;
+    margin-right: 175px;
+    font-size: 18px;
+}
+
+.bookcover{
+    margin-left: 190px;
+    box-shadow: 1px 1px 7px #000000;
+}
+
+.secondbookcover{
+    margin-left: 190px;
+    box-shadow: 1px 1px 7px #000000;
+}
+
+
+
+.bookheaderone{
+    margin-left: 450px;
+
+}
+
+.bookheadertwo{
+    margin-left: 450px;
+}
+
+.paragraphone{
+    margin-left: 450px;
+
+}
+
+.paragraphtwo{
+    margin-left: 450px;
+
+}
+
+.paragraphthree{
+    margin-left: 450px;
+
+}
+
+.paragraphfour{
+    margin-left: 450px;
+
+}
