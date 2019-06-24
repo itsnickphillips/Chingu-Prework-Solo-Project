@@ -1,10 +1,14 @@
 body{
     font-family:'Playfair Display' , serif;
-    
+    /* outline: 1px solid red; */
 }
 
 .mainheader{
-    background-color: #f2f2f2;
+    background-color: #f1f1f1;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+    /* outline: 1px solid red; */
 }
 
 a:link {
@@ -14,12 +18,25 @@ a:link {
 .top-nav{
     list-style-type: none;
     text-align: center;
-
+    width: 65%;
+    padding-top: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin: 0 auto;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+    /* outline: 1px solid red; */
 }
 
 .top-nav li{
     display: inline-block;
-    padding-left: 5px;
+    padding: 0 5px;
+    border-right: solid 1px;
+    font-size: 14px;
+}
+
+.topnavlinks{
+    color: black;
 }
 
 a:hover{
@@ -27,24 +44,41 @@ a:hover{
 }
 
 .secondary-nav{
-    list-style-type: none;   
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 0px;
+    /* outline: 1px solid red; */
+    bottom: auto;   
 }
 
 .secondary-nav li{
     display: inline-block;
-    padding-left: 10px; 
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #282f54;
+    
+}
+
+.secondnavlinks{
+    font-weight: 600;
+    color: white;
 }
 
 h1{
     color: #1a1a1a;
     font-size: 48px;
     margin-left: 175px; 
-    padding-top: 10%;   
+    margin-top: 0;
+    padding-top: 10%;  
+    /* outline: 1px solid red;  */
 }
 
 .headerdescription{
     margin-left: 175px;
     margin-right: 175px;
+    /* outline: 1px solid red; */
 }
 
 .sharebutton{
@@ -55,29 +89,71 @@ h1{
 .introtext{
     margin-left: 175px;
     margin-right: 175px;
+    margin-bottom: 0;
     font-size: 18px;
+    /* outline: 1px solid red; */
 }
 
-.bookcover{
+.row{
+    width: 100%
+}
+
+.img-column{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    /* outline: solid 1px red; */
+}
+
+img{
     margin-left: 190px;
-    box-shadow: 1px 1px 7px #000000;
+    max-width: 100%;
 }
 
-.secondbookcover{
-    margin-left: 190px;
-    box-shadow: 1px 1px 7px #000000;
+.content-column{
+    display: inline-block;
+    width: 55%; 
+    padding-left: 10px;
+    padding-right: 25px;
+    padding-bottom: 35px;
+    /* outline: solid 1px red; */
 }
 
+.bookparagraphs{
+    margin-bottom: 30px;
+}
 
-.bookheaderandparagraphs {
-    margin-left: 450px;
+.booklink{
+    background-color: #0a4bb7;
+    color: white;
+    padding: 15px;
+}
+
+.footer{
+    background-color: #141414;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-content{
+    margin-left: 175px;
+    margin-right: 175px;
+    color: #ffffff;
+    font-size: 18px;
 }
 
 .footernav{
     list-style-type: none;
-
+    /* outline: 1px solid red; */
 }
 
 .footernav li{
     display: inline-block;
+    padding: 0 5px;
+    border-right: solid 1px;
+}
+
+.wrapper {
+    width: 72%;
+    margin: 0 auto;
 }
