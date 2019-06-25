@@ -1,6 +1,5 @@
 body{
     font-family:'Playfair Display' , serif;
-    /* outline: 1px solid red; */
 }
 
 .mainheader{
@@ -8,7 +7,6 @@ body{
     margin-top: 0;
     margin-bottom: 0px;
     padding-bottom: 25px;
-    /* outline: 1px solid red; */
 }
 
 a:link {
@@ -37,8 +35,6 @@ a:link {
     margin: 0 auto;
     color: #000;
     border-bottom: 1px solid #ccc;
-    
-    /* outline: 1px solid red; */
 }
 
 .top-nav li{
@@ -61,8 +57,6 @@ a:hover{
     text-align: center;
     margin-bottom: 0px;
     margin-top: 20px;
-    
-    /* outline: 1px solid red; */
     bottom: auto;   
 }
 
@@ -73,8 +67,7 @@ a:hover{
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: -3px;
-    background-color: #282f54;
-    
+    background-color: #282f54
 }
 
 .secondnavlinks{
@@ -90,7 +83,7 @@ a:hover{
 }
 
 h1{
-    color: #1a1a1a;
+    color: #262626;
     font-size: 48px;
     margin-left: 175px; 
     margin-top: 0;
