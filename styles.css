@@ -87,19 +87,16 @@ h1{
     font-size: 48px;
     margin-left: 175px; 
     margin-top: 0;
-    padding-top: 5%;  
-    /* outline: 1px solid red;  */
+    padding-top: 1%;  
 }
 
 .headerdescription{
     margin-left: 175px;
     margin-right: 175px;
-    /* outline: 1px solid red; */
 }
 
 .sharebutton{
     margin-left: 175px;
-
 }
 
 .introtext{
@@ -107,7 +104,6 @@ h1{
     margin-right: 175px;
     margin-bottom: 25px;
     font-size: 18px;
-    /* outline: 1px solid red; */
 }
 
 .row{
@@ -118,7 +114,6 @@ h1{
     display: inline-block;
     width: 30%;
     height: auto;
-    /* outline: solid 1px red; */
 }
 
 img{
@@ -132,7 +127,6 @@ img{
     padding-left: 10px;
     padding-right: 25px;
     padding-bottom: 35px;
-    /* outline: solid 1px red; */
 }
 
 .bookparagraphs{
@@ -160,7 +154,6 @@ img{
 
 .footernav{
     list-style-type: none;
-    /* outline: 1px solid red; */
 }
 
 .footerlinks {
@@ -170,8 +163,7 @@ img{
 .footernav li{
     display: inline-block;
     padding: 0 5px;
-    border-right: solid 1px;
-    
+    border-right: solid 1px
 }
 
 .wrapper {
