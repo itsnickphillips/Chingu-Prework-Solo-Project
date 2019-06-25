@@ -15,22 +15,35 @@ a:link {
     text-decoration: none;
 }
 
+.logo {
+    display: inline;
+    float: left;
+    width: 93px;
+    height: 38px;
+    background: url(images/loydslogo.svg);
+    background-repeat: no-repeat;
+    background-size: 93px;
+    background-color: #000;
+    margin-left: 175px;
+}
+
 .top-nav{
     list-style-type: none;
     text-align: center;
-    width: 65%;
+    width: 50%;
     padding-top: 10px;
     padding-left: 1px;
     padding-right: 1px;
     margin: 0 auto;
     color: #000;
     border-bottom: 1px solid #ccc;
+    
     /* outline: 1px solid red; */
 }
 
 .top-nav li{
     display: inline-block;
-    padding: 0 5px;
+    padding: 0px 5px 0px 5px ;
     border-right: solid 1px;
     font-size: 14px;
 }
@@ -47,6 +60,8 @@ a:hover{
     list-style-type: none;
     text-align: center;
     margin-bottom: 0px;
+    margin-top: 20px;
+    
     /* outline: 1px solid red; */
     bottom: auto;   
 }
@@ -57,6 +72,7 @@ a:hover{
     padding-right: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-right: -3px;
     background-color: #282f54;
     
 }
@@ -66,12 +82,19 @@ a:hover{
     color: white;
 }
 
+.crumbs{
+    padding-top: 2%;
+    margin-left: 175px;
+    color: #909cb9;
+    font-size: 20px;
+}
+
 h1{
     color: #1a1a1a;
     font-size: 48px;
     margin-left: 175px; 
     margin-top: 0;
-    padding-top: 10%;  
+    padding-top: 5%;  
     /* outline: 1px solid red;  */
 }
 
@@ -89,7 +112,7 @@ h1{
 .introtext{
     margin-left: 175px;
     margin-right: 175px;
-    margin-bottom: 0;
+    margin-bottom: 25px;
     font-size: 18px;
     /* outline: 1px solid red; */
 }
@@ -147,10 +170,15 @@ img{
     /* outline: 1px solid red; */
 }
 
+.footerlinks {
+    color: #fff;
+}
+
 .footernav li{
     display: inline-block;
     padding: 0 5px;
     border-right: solid 1px;
+    
 }
 
 .wrapper {
